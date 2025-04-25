@@ -1,1 +1,1 @@
-- Live at: [Rishabh Portfolio](https://rishuportifolio.netlify.app)
+- Live at: [Rishabh Portfolio](https://rishuportiflio.netlify.app/)
