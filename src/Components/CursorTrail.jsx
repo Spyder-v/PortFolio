@@ -62,6 +62,7 @@ const CursorTrail = () => {
         strokeLinecap="round"
         strokeLinejoin="round"
       />
+      {/* heleosnd */}
     </svg>
   );
 };
