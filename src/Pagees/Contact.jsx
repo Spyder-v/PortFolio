@@ -3,7 +3,7 @@ import {Github, Linkedin, Mail} from 'lucide-react'
 
 function Conatct() {
     return (
-        <div className='bg-gradient-to-b from bg-gray-900 to-black'>
+        <div className='bg-gradient-to-b from bg-gray-900 to-black overflow-hidden'>
             <section className='0e0e1a py-16 px-6'>
                 <div className='max-w-2xl mx-auto text-center'>
                     <h2 className='text-4xl font-bold mb-2 text-pink-500'>Let's Connect 🤝</h2>

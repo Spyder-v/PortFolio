@@ -26,7 +26,7 @@ console.log(title==='Modern Music Player')
  <div 
         
         className='bg-[#1a1a3a] p-4 rounded-xl shadow-lg hover:scale-105 transition-transform duration-300 h-full '>
-            <img src={image} alt={title} className='rounded-md mb-4 w-full h-58 object-cover' />
+            <img src={image} alt={title} className='rounded-full mb-4  object-cover aspect-square md:w-full md:h-58 md:rounded-md md:object-contain' />
             <h3 className='text-xl font-bold mb-2'>{title}</h3>
             <p className='text-gray-400 text-sm mb-4'>{description}</p>
             <div className='flex gap-3 mb-4'>{techIcons.map((techIcons,index) =>(

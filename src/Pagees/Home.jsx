@@ -37,17 +37,17 @@ function Home() {
                 </div>
                    {/* My tech stack section */}
            <div className='flex flex-col gap-6 '>
-           <div className='bg-[#0f0f2d] rounded-xl p-6 flex flex-row md:flex-row items-center justify-between gap-6 shadow-lg h-[330px] '>
-                <div className=''> 
-                    <p className='text-sm pr-18 text-gray-400 mb-1'>I Constantly try to improve</p>
+           <div className='bg-[#0f0f2d] rounded-xl p-6 flex flex-row md:flex-row items-center justify-between gap-6 shadow-lg h-auto h-[400px] '>
+                <div className='flex flex-col items-start'> 
+                    <p className='text-sm  text-gray-400 mb-1 md:text-base md:mb-2  font-semibold ml-4'>I Constantly try to improve</p>
                    
-                    <h2 className='text-4xl font-bold' >My Tech Stack</h2>
+                    <h2 className='text-4xl font-bold md:mr:8' >My Tech Stack</h2>
                     </div>
                     {/* Map for all the tech boxes */ }
                     <div className='grid grid-cols-2 gap-7'>
                         {["React","JavaScript","Tailwind","HTML","CSS","GSAP","C++"].map((tech,index) =>(
                              <GsapEffect effect="shake" trigger="hover">
-                             <div className="bg-[#1c1c3a] hover:bg-[#6c5ce7]  text-center py-3 px-4 rounded-md transition-all duration-500 hover:scale-130 cursor-pointer hover:cursor-pointer">
+                             <div className="bg-[#1c1c3a] hover:bg-[#6c5ce7]  text-center py-2 px-4 rounded-lg whitespace-nowrap overflow-hidden  text-sm font-medium transition-all duration-500 hover:scale-130 cursor-pointer hover:cursor-pointer">
                                {tech}
                              </div>
                            </GsapEffect>
