@@ -27,7 +27,7 @@ const projects = [
 function Projects() {
     return (
       <div className='bg-gradient-to-b from bg-gray-900 to-black'>
-        <h3 className='flex items-center justify-center font-bold pt-9 text-2xl md:text-4xl '>A Small Collection of  
+        <h3 className='flex items-center justify-center font-bold pt-9 text-xl md:text-4xl '>A Small Collection of  
             <span className='text-purple-300 font-bold ml-2' > Recent Projects</span></h3>
           <div className='grid grid-cols-2 md:grid-cols-2 gap-6 px-8 py-9 '>
            
